@@ -19,3 +19,10 @@
   ⁃ Restart Elasticsearch.
 • On other nodes:
   ⁃ Start Elasticsearch with `bin/elasticsearch --enrollment-token <token>`, using the enrollment token that you generated.
+
+
+# Resetting password
+
+./elasticsearch-reset-password -u elastic -i
+
+:> if you don't use -i option, a default strong password is set
